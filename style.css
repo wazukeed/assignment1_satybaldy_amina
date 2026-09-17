@@ -1,0 +1,396 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+
+    margin:0;
+
+    font-family:
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+    background:
+    linear-gradient(
+    135deg,
+    #f8f5ff,
+    #e9ddff
+    );
+
+    color:#29233d;
+
+}
+
+
+
+
+
+header {
+
+    background:
+    linear-gradient(
+    135deg,
+    #6c4cff,
+    #b06cff
+    );
+
+    color:white;
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+
+
+
+
+.hero h1 {
+
+    font-size:45px;
+
+    margin-bottom:10px;
+
+}
+
+
+
+
+
+.hero h2 {
+
+    font-weight:300;
+
+}
+
+
+
+
+
+.site-nav {
+
+    margin-top:30px;
+
+}
+
+
+
+
+
+.site-nav a {
+
+    color:white;
+
+    text-decoration:none;
+
+    margin:0 15px;
+
+    font-weight:bold;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+}
+
+
+
+
+
+.site-nav a:hover {
+
+    background:white;
+
+    color:#6c4cff;
+
+}
+
+
+
+
+
+main {
+
+    width:80%;
+
+    margin:auto;
+
+}
+
+
+
+
+
+.card {
+
+
+    background:white;
+
+    margin:30px 0;
+
+    padding:30px;
+
+
+    border-radius:20px;
+
+
+    box-shadow:
+    0 10px 25px
+    rgba(0,0,0,0.1);
+
+
+}
+
+
+
+
+
+
+#about-me {
+
+    text-align:center;
+
+}
+
+
+
+
+
+.card h2 {
+
+
+    color:#6c4cff;
+
+}
+
+
+
+
+
+.profile-image {
+
+
+    width:250px;
+
+    height:250px;
+
+    object-fit:cover;
+
+
+    border-radius:50%;
+
+
+    border:6px solid #b06cff;
+
+
+    box-shadow:
+    0 5px 20px
+    rgba(108,76,255,0.3);
+
+
+}
+
+
+
+
+
+ol,
+ul {
+
+
+    line-height:2;
+
+
+}
+
+
+
+
+
+a {
+
+
+    color:#6c4cff;
+
+
+}
+
+
+
+
+
+table {
+
+
+    width:100%;
+
+
+    border-collapse:collapse;
+
+
+}
+
+
+
+
+
+th {
+
+
+    background:#6c4cff;
+
+    color:white;
+
+
+}
+
+
+
+
+
+td,
+th {
+
+
+    padding:15px;
+
+    border:1px solid #ddd;
+
+
+}
+
+
+
+
+
+
+form {
+
+
+    max-width:400px;
+
+
+}
+
+
+
+
+
+label {
+
+
+    display:block;
+
+
+    margin-top:15px;
+
+
+    font-weight:bold;
+
+
+}
+
+
+
+
+
+input {
+
+
+    width:100%;
+
+
+    padding:12px;
+
+
+    border-radius:10px;
+
+
+    border:1px solid #ccc;
+
+
+}
+
+
+
+
+
+button {
+
+
+    margin-top:20px;
+
+
+    padding:12px 30px;
+
+
+    border:none;
+
+
+    border-radius:25px;
+
+
+    background:#6c4cff;
+
+
+    color:white;
+
+
+    cursor:pointer;
+
+
+    font-size:16px;
+
+
+}
+
+
+
+
+
+button:hover {
+
+
+    background:#4b32c9;
+
+
+}
+
+
+
+
+
+a:focus,
+button:focus,
+input:focus {
+
+
+    outline:3px solid #b06cff;
+
+
+}
+
+
+
+
+
+footer {
+
+
+    text-align:center;
+
+
+    background:#29233d;
+
+
+    color:white;
+
+
+    padding:20px;
+
+
+}
